@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidacaoiIade</fullName>
+    <active>true</active>
+    <description>Nao pode adotar menor de idade.</description>
+    <errorConditionFormula>Contato__r.Idade__c &lt; 18</errorConditionFormula>
+    <errorDisplayField>Contato__c</errorDisplayField>
+    <errorMessage>Menores de idade não pode adotar.</errorMessage>
+</ValidationRule>
